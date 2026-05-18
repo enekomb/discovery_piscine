@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="background.css">
+</head>
+<body>
+   <button onclick="change_color()">click me</button>
+
+<script type="text/javascript">
+    function random_color()
+    {
+        var letters;
+        var colors;
+        var i;
+
+        letters = '0123456789ABCDEF';
+        colors = '#';
+        i = 0;
+        while (i < 6)
+        {
+            colors += letters[Math.floor(Math.random() * 16)]
+            i++;
+        }
+        return (colors)
+    }
+    function change_color()
+    {
+        document.body.style.backgroundColor = random_color();
+    }
+</script>
+</body>
+</html>

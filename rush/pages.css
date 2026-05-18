@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    margin-top: 140px;
+}
+h2{
+    margin: 30px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+}
+
+.logos{
+    width: 5%;
+    margin: 10px;
+}
+
+table {
+    padding: 20px;
+    width: 30%;
+}
+
+.imagen{
+    width: 280px;
+}
+
+.perfil{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    font-family: Impact;
+    font-size: 30px;
+}
+
+.icons{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px
+}
+.icon1{
+    margin-top: 7px;
+    width: 60px;
+}
+.icon2{
+    width: 70px;
+}
+
+.icon3{
+    width: 70px;
+}
+
+footer{
+    margin: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.foot_img{
+    width: 60%;
+}

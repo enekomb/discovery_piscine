@@ -1,0 +1,34 @@
+body {
+	margin: 0;
+}
+
+div {
+	text-align: center;
+	color: white;
+}
+
+.parallax {
+	background-color: black;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.text {
+	position: relative;
+	top: 50%;
+}
+
+.block {
+	background-color: black;
+	height: 500px;
+}
+
+#img1 {
+	background-image: url("https://media.traveler.es/photos/613760adcb06ad0f20e11980/master/w_1600%2Cc_limit/202931.jpg");
+}
+
+#img2 {
+	background-image: url("https://estaticos-cdn.prensaiberica.es/clip/53645b05-c3f9-4c7d-a6e5-d623fa0f6a49_16-9-discover-aspect-ratio_default_0.jpg");
+}

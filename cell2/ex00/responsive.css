@@ -1,0 +1,22 @@
+html, body {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+table {
+    border-spacing: 0;
+    border:  1px solid #333;
+    height: 100%;
+    width: 100%;
+}
+td{
+border: 1px solid #333;
+}
+.left {
+    width: 50%;
+    background-color: yellowgreen;
+}
+.right {
+    width: 50%;
+    background-color: blueviolet;
+}

@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    display: flex;
+}
+main{
+ margin-top: 100px;
+}
+h1{
+    margin-bottom: 50px;
+}
+.img{
+    width: 70%;
+}
+footer{
+    margin: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.text{
+    margin: 50px;
+}
+.foot_img{
+    width: 60%;
+}

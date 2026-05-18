@@ -1,0 +1,8 @@
+﻿*.o
+*.a
+*.out
+push_swap
+server
+client
+so_long
+cub3d
